@@ -1,6 +1,6 @@
 # Complete_2019_Web_Development_Bootcamp
 
-## TinDog
+## TinDog (Made using Bootstrap 4)
 <img width="1428" alt="Screen Shot 2019-04-08 at 5 36 51 PM" src="https://user-images.githubusercontent.com/19628705/55765544-1d195500-5a25-11e9-982e-b16fe09fe77b.png">
 <img width="1424" alt="Screen Shot 2019-04-08 at 5 37 02 PM" src="https://user-images.githubusercontent.com/19628705/55765550-21457280-5a25-11e9-91e4-0f604c7dbdc7.png">
 <img width="1426" alt="Screen Shot 2019-04-08 at 5 37 10 PM" src="https://user-images.githubusercontent.com/19628705/55765553-22769f80-5a25-11e9-8bd2-423d7464ed8f.png">
