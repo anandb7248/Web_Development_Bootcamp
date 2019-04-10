@@ -18,3 +18,11 @@
 
 ### Web Dev Course Resources
 https://www.appbrewery.co/p/web-development-course-resources/
+
+### Useful Chrome Extensions for Web Development
+
+#### HTML Tree Generator
+https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg?hl=en-US
+
+#### Pesticide
+https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?hl=en-US
