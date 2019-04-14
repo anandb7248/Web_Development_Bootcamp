@@ -1,6 +1,10 @@
 # Complete_2019_Web_Development_Bootcamp
 
-## Dicee Challenge (Intro Javascript & DOM)
+## Drum Kit (Advanced JavaScript & DOM Manipulation)
+<img width="1438" alt="Screen Shot 2019-04-13 at 11 31 30 PM" src="https://user-images.githubusercontent.com/19628705/56089199-7548c080-5e44-11e9-8beb-02396661f76b.png">
+
+
+## Dicee Challenge (Intro JavaScript & DOM)
 <img width="1440" alt="Screen Shot 2019-04-13 at 9 47 33 PM" src="https://user-images.githubusercontent.com/19628705/56088444-d1f0af00-5e35-11e9-9ddd-4ca799481d2a.png">
 
 ## TinDog (Bootstrap 4)
