@@ -1,5 +1,8 @@
 # Complete_2019_Web_Development_Bootcamp
 
+## Simon Game (jQuery & JavaScript)
+![simongame](https://user-images.githubusercontent.com/19628705/56182300-5a9e5500-5fc6-11e9-9014-a54a6e84fcdd.gif)
+
 ## Drum Kit (Advanced JavaScript & DOM Manipulation)
 <img width="1438" alt="Screen Shot 2019-04-13 at 11 31 30 PM" src="https://user-images.githubusercontent.com/19628705/56089199-7548c080-5e44-11e9-8beb-02396661f76b.png">
 
