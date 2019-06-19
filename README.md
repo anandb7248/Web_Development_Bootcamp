@@ -1,5 +1,24 @@
 # Complete_2019_Web_Development_Bootcamp
 
+## Materials Used/Learned
+* HTML
+* CSS
+* JavaScript
+* Bootstrap 4
+* DOM & DOM Manipulation
+* jQuery
+* Node.js
+  * NPM
+    * body-parser (npm)
+    * request (npm)
+    * nodemon (npm)
+* Express.js
+* API
+  * JSON
+  * Authentication
+  * Worked w/ Mailchimp API
+* Heroku
+
 ## Simon Game (jQuery & JavaScript)
 ![simongame](https://user-images.githubusercontent.com/19628705/56182300-5a9e5500-5fc6-11e9-9014-a54a6e84fcdd.gif)
 
