@@ -18,6 +18,7 @@
   * Authentication
   * Worked w/ Mailchimp API
 * Heroku
+ * Newsletter site deployed to: https://arcane-reaches-82981.herokuapp.com/
 
 ## Simon Game (jQuery & JavaScript)
 ![simongame](https://user-images.githubusercontent.com/19628705/56182300-5a9e5500-5fc6-11e9-9014-a54a6e84fcdd.gif)
