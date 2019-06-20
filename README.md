@@ -1,6 +1,6 @@
 # Complete_2019_Web_Development_Bootcamp
 
-## Materials Used/Learned
+## Main Topics Covered
 * HTML
 * CSS
 * JavaScript
@@ -18,7 +18,12 @@
   * Authentication
   * Worked w/ Mailchimp API
 * Heroku
- * Newsletter site deployed to: https://arcane-reaches-82981.herokuapp.com/
+  * Newsletter site deployed to: https://arcane-reaches-82981.herokuapp.com/
+
+## Newsletter Signup Page (Node.js, Express.js, Mailchimp API, & Heroku)
+Newsletter Signup Page |  MailChimp Persistence
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/19628705/59819145-877b2b00-92db-11e9-9fd1-3c7a59e33659.png) | ![](https://user-images.githubusercontent.com/19628705/59819146-877b2b00-92db-11e9-94a2-382ec1c9923a.png)
 
 ## Simon Game (jQuery & JavaScript)
 ![simongame](https://user-images.githubusercontent.com/19628705/56182300-5a9e5500-5fc6-11e9-9014-a54a6e84fcdd.gif)
