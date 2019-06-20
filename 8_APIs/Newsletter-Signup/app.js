@@ -46,7 +46,7 @@ app.post("/", function(req, res) {
     headers: {
       'Authorization': "anand1 8a8caf31357e4496e62d3e3690b8797b-us3"
     },
-    //body: jsonData
+    body: jsonData
   }
 
   request(options, function(error, response, body) {
@@ -67,8 +67,8 @@ app.post("/failure.html", function(req, res){
   res.redirect("/");
 });
 
-app.listen(3000, function() {
-  console.log("Server running on port 3000.");
+app.listen(process.env.PORT || 3000, function() {
+  console.log("Server is running");
 });
 
 // 8a8caf31357e4496e62d3e3690b8797b-us3
