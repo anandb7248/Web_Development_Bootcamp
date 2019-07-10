@@ -39,10 +39,16 @@ app.get("/compose", function(req, res) {
   res.render("compose");
 });
 
-app.post("/", function(req, res){
+app.post("/", function(req, res) {
   console.log(req.body.journalEntry);
 });
 
+app.post("/compose", function(req, res) {
+  const post = {
+    title: req.body.postTitle,
+    body: req.body.postBody
+  };
+});
 
 
 
