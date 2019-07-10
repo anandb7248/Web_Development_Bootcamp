@@ -20,9 +20,9 @@ app.use(express.static("public"));
 
 app.get("/", function(req, res) {
   res.render("home", {
-    homeStartingContent: homeStartingContent
+    homeStartingContent: homeStartingContent,
+    posts: posts
   });
-  console.log(posts);
 });
 
 app.get("/about", function(req, res) {
