@@ -12,6 +12,7 @@
     * body-parser (npm)
     * request (npm)
     * nodemon (npm)
+    * lodash (npm)
 * Express.js
 * API
   * JSON
@@ -20,6 +21,10 @@
 * Heroku
   * Newsletter site deployed to: https://arcane-reaches-82981.herokuapp.com/
 * EJS
+
+## Blog Website (EJS, Node.js, Express.js, Lodash)
+![Screen Shot 2019-07-10 at 10 46 33 PM](https://user-images.githubusercontent.com/19628705/61025198-c2b1cc80-a364-11e9-8f07-8064781ee30d.png)
+
 
 ## To-Do List (EJS, Node.js, Express.js)
 <img width="1425" alt="Screen Shot 2019-06-30 at 9 03 08 PM" src="https://user-images.githubusercontent.com/19628705/60409991-dbf39580-9b7a-11e9-8b7c-42b7ec4659be.png">
