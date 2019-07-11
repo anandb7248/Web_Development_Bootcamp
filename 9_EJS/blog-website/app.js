@@ -48,8 +48,10 @@ app.get("/posts/:postTitle", function(req, res) {
   posts.forEach(function(post) {
     const postTitle = kebabCase(post.title);
     if (postTitle === requestedTitle) {
-      console.log("Match Found!");
-      console.log(postTitle);
+      res.render("post", {
+        postTitle : post.title,
+        postBody : post.body
+      });
     }
   });
 });
