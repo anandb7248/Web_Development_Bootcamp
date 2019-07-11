@@ -41,6 +41,10 @@ app.get("/compose", function(req, res) {
   res.render("compose");
 });
 
+app.get("/posts/:postTitle", function(req, res){
+  console.log(req.params);
+});
+
 app.post("/", function(req, res) {
   console.log(req.body.journalEntry);
 });
