@@ -9,10 +9,10 @@
 * jQuery
 * Node.js
   * NPM
-    * body-parser (npm)
-    * request (npm)
-    * nodemon (npm)
-    * lodash (npm)
+    * body-parser
+    * request
+    * nodemon
+    * lodash
 * Express.js
 * API
   * JSON
