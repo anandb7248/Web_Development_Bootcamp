@@ -21,6 +21,8 @@
 * Heroku
   * Newsletter site deployed to: https://arcane-reaches-82981.herokuapp.com/
 * EJS
+* Databases
+  * SQL vs NoSQL
 
 ## Blog Website (EJS, Node.js, Express.js, Lodash)
 ![Screen Shot 2019-07-10 at 10 46 33 PM](https://user-images.githubusercontent.com/19628705/61025198-c2b1cc80-a364-11e9-8f07-8064781ee30d.png)
@@ -55,6 +57,10 @@ Newsletter Signup Page |  MailChimp Persistence
 
 ### Front End | BackEnd
 <img width="1268" alt="Screen Shot 2019-03-25 at 3 35 26 PM" src="https://user-images.githubusercontent.com/19628705/55765442-95334b00-5a24-11e9-80f3-a514bf6ed30c.png">
+
+### SQL vs NoSQL
+![Screen Shot 2019-07-13 at 10 35 52 PM](https://user-images.githubusercontent.com/19628705/61179956-ca6eac80-a5c2-11e9-977a-567e33a9ea48.png)
+![Screen Shot 2019-07-13 at 10 19 42 PM](https://user-images.githubusercontent.com/19628705/61179957-ca6eac80-a5c2-11e9-9e8b-9af28ab634ad.png)
 
 ### Z-Index & Stacking Order Guide
 <img width="997" alt="Screen Shot 2019-04-08 at 5 35 19 PM" src="https://user-images.githubusercontent.com/19628705/55765462-b3994680-5a24-11e9-9c64-a96201d9b234.png">
