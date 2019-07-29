@@ -13,6 +13,7 @@
     * request
     * nodemon
     * lodash
+    * mongoose 
 * Express.js
 * API
   * JSON
@@ -24,6 +25,7 @@
 * Databases
   * SQL
   * MongoDB
+* Mongoose
 
 ## Blog Website (EJS, Node.js, Express.js, Lodash)
 ![Screen Shot 2019-07-10 at 10 46 33 PM](https://user-images.githubusercontent.com/19628705/61025198-c2b1cc80-a364-11e9-8f07-8064781ee30d.png)
