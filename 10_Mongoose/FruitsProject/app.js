@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // URL: <server>/<Database, if it doesn't exist a new one will be created>
 mongoose.connect("mongodb://localhost:27017/fruitsDB", { useNewUrlParser: true});
 
-const fruitScheme = new mongoose.Schema({
+const fruitSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "What's the name of the fruit?"]
@@ -11,7 +11,7 @@ const fruitScheme = new mongoose.Schema({
   rating: {
     type: Number,
     min: 1,
-    max: 2
+    max: 10
   },
   review: String
 });
@@ -19,7 +19,7 @@ const fruitScheme = new mongoose.Schema({
 // First Parm: String, singular, name of collection,
 // in MongoDB it will be saved all lower case
 // Second Parm: Scheme
-const Fruit = mongoose.model("Fruit", fruitScheme);
+const Fruit = mongoose.model("Fruit", fruitSchema);
 
 const fruit = new Fruit({
   name: "Apple",
@@ -31,15 +31,11 @@ const fruit = new Fruit({
 
 const personSchema = new mongoose.Schema({
   name: String,
-  age: Number
+  age: Number,
+  favoriteFruit: fruitSchema
 });
 
 const Person = mongoose.model("Person", personSchema);
-
-const personJohn = new Person({
-  name: "John",
-  age: 37
-});
 
 //personJohn.save();
 
@@ -49,10 +45,10 @@ const banana = new Fruit({
   review: "Weird texture."
 });
 
-const kiwi = new Fruit({
-  name: "Kiwi",
-  rating: 4,
-  review: "Too sweet for me."
+const person = new Person({
+  name: "Kevin",
+  age: 25,
+  favoriteFruit: banana
 });
 
 const orange = new Fruit({
@@ -60,6 +56,23 @@ const orange = new Fruit({
   rating: 8,
   review: "Tastes great."
 });
+
+// person.save();
+Person.updateOne({name:"John"}, {favoriteFruit: orange}, function(err){
+  if(err){
+    console.log(err);
+  }else{
+    console.log("Success");
+  }
+});
+
+const kiwi = new Fruit({
+  name: "Kiwi",
+  rating: 4,
+  review: "Too sweet for me."
+});
+
+
 
 // Fruit.insertMany([banana, kiwi, orange], function(err){
 //   if(err){
