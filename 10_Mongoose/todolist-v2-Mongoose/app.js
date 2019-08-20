@@ -5,7 +5,7 @@ const _ = require('lodash');
 
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/todoListDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-anand:test123@cluster0-dsfog.mongodb.net/todoListDB", {useNewUrlParser: true});
 
 // 1. Schema
 const itemsSchema = new mongoose.Schema({
@@ -55,6 +55,8 @@ app.get("/", function(req, res) {
           console.log("Successfully saved the documents");
         }
       });
+
+      res.redirect("/");
     }
 
     res.render("list", {
@@ -143,6 +145,8 @@ app.post("/delete", function(req, res){
 
 });
 
-app.listen(3000, function() {
-  console.log("Server running on port 3000.");
-});
+let port = process.env.PORT;
+if(port == null || port == ""){
+  port = 3000;
+}
+app.listen(3000);
