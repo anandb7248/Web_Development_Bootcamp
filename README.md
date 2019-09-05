@@ -9,6 +9,8 @@
 * jQuery
 * Node.js
   * NPM
+    * express
+    * ejs
     * body-parser
     * request
     * nodemon
@@ -28,7 +30,11 @@
   * MongoDB
 * Mongoose
 * MongoDB Atlas
-* REST APIs
+* Built REST API from scratch
+* Tools used:
+   * Atom
+   * Postman
+   * Robo 3T
 
 ## Blog Website (EJS, Node.js, Express.js, Lodash)
 ![Screen Shot 2019-07-10 at 10 46 33 PM](https://user-images.githubusercontent.com/19628705/61025198-c2b1cc80-a364-11e9-8f07-8064781ee30d.png)
