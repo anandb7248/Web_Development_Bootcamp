@@ -16,6 +16,7 @@
     * nodemon
     * lodash
     * mongoose 
+    * mongoose-encryption
 * Express.js
 * API
   * JSON
@@ -31,6 +32,7 @@
 * Mongoose
 * MongoDB Atlas
 * Built REST API from scratch
+* Authentication & Security
 * Tools used:
    * Atom
    * Postman
