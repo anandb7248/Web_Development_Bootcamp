@@ -105,47 +105,57 @@ app.route("/articles").get(function(req, res) {
 
 app.route("/articles/:articleTitle")
 
-  .get(function(req, res){
-  Article.findOne({title: req.params.articleTitle}, function(err, foundArticle){
-    if(!err){
-      res.send(foundArticle);
-    }else{
-      res.send("No articles matching that title was found");
-    }
+  .get(function(req, res) {
+    Article.findOne({
+      title: req.params.articleTitle
+    }, function(err, foundArticle) {
+      if (!err) {
+        res.send(foundArticle);
+      } else {
+        res.send("No articles matching that title was found");
+      }
+    })
   })
-})
 
-  .put(function(req, res){
-    Article.update(
-      {title: req.params.articleTitle},
-      {title: req.body.title, content: req.body.content},
-      {overwrite: true},
-      function(err){
-        if(!err){
+  .put(function(req, res) {
+    Article.update({
+        title: req.params.articleTitle
+      }, {
+        title: req.body.title,
+        content: req.body.content
+      }, {
+        overwrite: true
+      },
+      function(err) {
+        if (!err) {
           res.send("Successfully updated article.")
         }
       });
-})
+  })
 
-.patch(function(req, res){
-  Article.update(
-    {title: req.params.articleTitle},
-    {$set: req.body},
-    function(err){
-      if(!err){
-        res.send("Successfully updated article.");
-      }else{
-        res.send(err);
+  .patch(function(req, res) {
+    Article.update({
+        title: req.params.articleTitle
+      }, {
+        $set: req.body
+      },
+      function(err) {
+        if (!err) {
+          res.send("Successfully updated article.");
+        } else {
+          res.send(err);
+        }
       }
-    }
-  );
-})
+    );
+  })
 
-  .delete(function(req, res){
-    Article.deleteOne({title: req.params.articleTitle}, function(err){
-      if(!err){
+  .delete(function(req, res) {
+    Article.deleteOne({
+      title: req.params.articleTitle
+    }, function(err) {
+      if (!err) {
         res.send("Successfully deleted article.");
-      }else{
+      } else {
         res.send(err);
       }
     })
