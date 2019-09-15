@@ -17,6 +17,7 @@
     * lodash
     * mongoose 
     * mongoose-encryption
+    * dotenv
 * Express.js
 * API
   * JSON
