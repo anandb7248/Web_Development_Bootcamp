@@ -18,6 +18,7 @@
     * mongoose 
     * mongoose-encryption
     * dotenv
+    * md5
 * Express.js
 * API
   * JSON
