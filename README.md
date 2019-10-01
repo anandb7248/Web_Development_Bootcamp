@@ -19,6 +19,7 @@
     * mongoose-encryption
     * dotenv
     * md5
+    * bcrypt
 * Express.js
 * API
   * JSON
