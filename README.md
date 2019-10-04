@@ -20,6 +20,10 @@
     * dotenv
     * md5
     * bcrypt
+    * passport
+    * passport-local
+    * passport-local-mongoose
+    * express-session
 * Express.js
 * API
   * JSON
