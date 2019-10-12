@@ -23,6 +23,8 @@
     * passport
     * passport-local
     * passport-local-mongoose
+    * passport-google-path20
+    * mongoose-findorcreate
     * express-session
 * Express.js
 * API
