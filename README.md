@@ -30,7 +30,8 @@
 * API
   * JSON
   * Authentication
-  * Worked w/ Mailchimp API
+  * Mailchimp API
+  * Created REST API from scratch
 * Heroku
   * Newsletter site deployed to: https://arcane-reaches-82981.herokuapp.com/
   * Todo List site deployed to: https://dry-castle-22389.herokuapp.com/
@@ -40,7 +41,6 @@
   * MongoDB
 * Mongoose
 * MongoDB Atlas
-* Built REST API from scratch
 * Authentication & Security
 * Tools used:
    * Atom
