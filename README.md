@@ -46,6 +46,10 @@ https://docs.google.com/document/d/1-3_P9Lf5_WeAt2zLvywBO9ALvV8WT7u45iwXQ9nIfOA/
 * MongoDB Atlas
 * Authentication & Security
 * React
+  * Components
+  * Props
+  * Babel
+  * JSX
 * Tools used:
    * Atom
    * Postman
@@ -53,7 +57,8 @@ https://docs.google.com/document/d/1-3_P9Lf5_WeAt2zLvywBO9ALvV8WT7u45iwXQ9nIfOA/
    * Visual Studio Code
    
 ## React
-
+### Emojipedia w/ React Components & Props
+![Screen Shot 2019-12-03 at 7 02 49 PM](https://user-images.githubusercontent.com/19628705/70109011-86c32080-15ff-11ea-91d1-bca52691f9c4.png)
 
 ## Authentication, Security, Auth2.0 w/ Google
 ![Screen Shot 2019-10-11 at 11 38 17 PM](https://user-images.githubusercontent.com/19628705/66696735-4be9df80-ec83-11e9-905f-4c1290ef716e.png)
