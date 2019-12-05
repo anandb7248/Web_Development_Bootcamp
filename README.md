@@ -53,6 +53,7 @@ https://docs.google.com/document/d/1-3_P9Lf5_WeAt2zLvywBO9ALvV8WT7u45iwXQ9nIfOA/
   * Map/Filter/Reduce
   * ES6 Arrow Functions
   * Hooks
+  * JS Destructuring
 * Tools used:
    * Atom
    * Postman
