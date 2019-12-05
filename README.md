@@ -50,6 +50,9 @@ https://docs.google.com/document/d/1-3_P9Lf5_WeAt2zLvywBO9ALvV8WT7u45iwXQ9nIfOA/
   * Props
   * Babel
   * JSX
+  * Map/Filter/Reduce
+  * ES6 Arrow Functions
+  * Hooks
 * Tools used:
    * Atom
    * Postman
