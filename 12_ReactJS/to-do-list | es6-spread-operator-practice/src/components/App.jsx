@@ -16,6 +16,15 @@ function App() {
     updateTasks([...tasks, inputText]);
   }
 
+  function deleteItem(id){
+    console.log(id);
+
+    updateTasks(prevItems => {
+      return prevItems.filter((item, index) => 
+        {return index != id});
+    });
+  }
+
   return (
     <div className="container">
       <div className="heading">
@@ -29,7 +38,7 @@ function App() {
       </div>
       <div>
         <ul>
-          {tasks.map(item => <TodoItem text={item}></TodoItem>)}
+          {tasks.map((item, index) => <TodoItem key={index} id={index} text={item} onClicked={deleteItem}></TodoItem>)}
         </ul>
       </div>
     </div>
