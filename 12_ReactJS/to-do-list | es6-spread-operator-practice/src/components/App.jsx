@@ -14,6 +14,8 @@ function App() {
 
   function handleClick() {
     updateTasks([...tasks, inputText]);
+
+    updateInputText("");
   }
 
   function deleteItem(id){
