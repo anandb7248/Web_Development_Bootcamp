@@ -61,6 +61,9 @@ https://docs.google.com/document/d/1-3_P9Lf5_WeAt2zLvywBO9ALvV8WT7u45iwXQ9nIfOA/
    * Visual Studio Code
    
 ## React
+### To-Do List w/ React Hooks, States, Destructuring, Spread Operator
+![Screen Shot 2019-12-06 at 10 14 17 PM](https://user-images.githubusercontent.com/19628705/70369966-db6fd100-1875-11ea-8954-c9b3b5d6d087.png)
+
 ### Emojipedia w/ React Components & Props
 ![Screen Shot 2019-12-03 at 7 02 49 PM](https://user-images.githubusercontent.com/19628705/70109011-86c32080-15ff-11ea-91d1-bca52691f9c4.png)
 
